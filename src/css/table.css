@@ -1,0 +1,13 @@
+/* เพิ่ม CSS นี้ */
+.table th, .table td {
+    word-wrap: break-word; /* ตัดคำในกรณีที่คำยาวเกิน */
+}
+
+.table {
+    table-layout: fixed; /* ใช้ table layout fixed เพื่อให้คอลัมน์เท่ากัน */
+    width: 100%; /* ทำให้ตารางใช้ความกว้าง 100% */
+}
+
+.table th, .table td {
+    width: 33.33%; /* ตั้งค่าว่าทุกคอลัมน์จะใช้ความกว้างที่เท่ากัน */
+}
